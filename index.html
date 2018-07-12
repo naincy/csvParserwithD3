@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assignment 2 : StackRoute</title>
+  <style>
+    h1 {
+        color: maroon;
+    }
+    h5 {
+        color: green;
+    }
+    #theftchart rect, #assultchart rect{
+        fill: #4aaeea;
+    }
+
+    #theftchart text, #assultchart text{
+    fill: black;
+    font: 10px sans-serif;
+    text-anchor: end; 
+    }
+
+    .axis text{
+    font: 10px sans-serif;
+    }
+
+    .axis path, .axis line{
+    fill: none;
+    stroke : black;
+    shape-rendering: crispEdges;
+}
+
+
+  </style>
+</head>
+
+<body>
+    <h1>Assignment 2 : D3 Chart</h1>
+    <h5>Theft data from 2001 - 2018 for OVER $500</h5>
+    <div id="theftchart"></div>
+    <h5> Assault cases over 2001 - 2018, for crime arrest</h5>
+    <div id="assultchart"></div>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="graph.js"></script>
+  </body>
+</html>
